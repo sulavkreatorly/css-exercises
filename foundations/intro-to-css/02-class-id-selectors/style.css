@@ -1,1 +1,5 @@
 /* Add CSS Styling */
+.odd {
+    background-color: rgb(228, 107, 177);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
