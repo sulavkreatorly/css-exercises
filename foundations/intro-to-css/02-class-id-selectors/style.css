@@ -5,10 +5,14 @@
 }
 
 #two {
-    color: rgb(17, 1, 95);
+    color: rgb(39, 0, 236);
     font-size: 36px;
 }
 
 .three {
     font-size: 24px;
+}
+
+#four {
+    background-color: rgb(1, 243, 73);
 }
