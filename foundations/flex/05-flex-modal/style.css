@@ -19,8 +19,11 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2); 
+  padding: 15px;
 }
+
+  
 
 .icon {
   color: royalblue;
@@ -66,4 +69,33 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+
+.main-header {
+  display: flex;
+  gap: 15px;
+  
+  .header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .close-button {
+    margin-left: auto;
+  }
+}
+
+.footer-buttons {
+  margin: 15px 0 0 53px;
+}
+
+.main-body {
+  padding-left: 56px;
+  display: flex;
+  margin-top: -10px;
+  .text {
+    flex-wrap: wrap;
+  }
 }
